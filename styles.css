@@ -1,0 +1,13 @@
+:root {
+    --font-style: "Times New Roman", Arial, helvetica, sans-serif;
+}
+
+
+body {
+    background-color: #f5f4f2;
+}
+
+.intro-para {
+    font-style: var(--font-style);
+}
+
