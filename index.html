@@ -8,29 +8,36 @@
 </head>
 <body>
     <div class="image-container">
-        <img src="halie-west-25xggax4bSA-unsplash.jpg" alt="image of ferns"
-            width="300px" height="auto">
+        <div class="bg-image">
+            <img src="halie-west-25xggax4bSA-unsplash.jpg" alt="image of ferns"
+                width="300px" height="auto">
+        </div>
+        <div class="logo">
+            <image src="odin-lined.png" alt="outline of Odin logo"
+                width="300px" height="auto">
+            <div class="logo-name">
+                <span>ODIN</span>
+            </div>
+        </div>
+        <div class="photo-credit">
+            <span>Photo by Hallie West on Unsplash</span>
+        </div>
     </div>
-    <div>
-        <image src="odin-lined.png" alt="outline of Odin logo"
-            width="300px" height="auto">
-        <span>ODIN</span>
-    </div>
-    <div>
+    <div class="intro-para">
         <p>This is not a real online service! You know
             you need something like this in your life to
             help you realize your deepest dreams.
             Sign-up <i>now</i> to get started.
         </p>
     </div>
-    <div>
+    <div class="statement">
         <span>You <i>know</i> you want to</span>
     </div>
     <div>
         <form action="#" method="post">
             <h2>Let's do this!</h2>
-            <div>
-                <div>
+            <div class="form-containter">
+                <div class="name-section">
                     <label for="first-name">FIRST NAME</label>
                     <input type="text" id="first-name" name="first-name" 
                             placeholder="Bob">
@@ -39,7 +46,7 @@
                             placeholder="Smith">
                 </div>
 
-                <div>
+                <div class="contact-section">
                     <label for="email">EMAIL</label>
                     <input type="text" id="email" name="email"
                             placeholder="example@gmail.com">
@@ -48,14 +55,20 @@
                             placeholder="555-555-5555">
                 </div>
 
-                <div>
+                <div class="password-section">
                     <label for="password">PASSWORD</label>
                     <input type="text" id="password" name="password">
                     <label for="confirm-password">CONFIRM PASSWORD</label>
                     <input type="text" id="confirm-password" name="password">
                 </div>
             </div>
+            <div>
+                <button type="submit">Create Account</button>
+            </div>
         </form>
+        <div class="created-account">
+            <span>Already have an account? <a href="#">Log in</a></span>
+        </div>
     </div>
 </body>
 </html>
