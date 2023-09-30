@@ -1,13 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Martian+Mono&family=Pixelify+Sans&family=Titillium+Web&display=swap');
+
 :root {
-    --font-style: "Times New Roman", Arial, helvetica, sans-serif;
+    --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --bold-font: 900;
+    --form-labels: ;
+    --white-font: #ffffff;
 }
 
 
 body {
     background-color: #f5f4f2;
+    flex-direction: column;
 }
 
-.intro-para {
-    font-style: var(--font-style);
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-para,
+.statement {
+    font-family: var(--font-family);
+    font-weight: var(--bold-font);
+    display: flex;
+    justify-content: center;
+}
+
+.statement {
+    display: flex;
+    
+}
+
+.photo-credit,
+.logo-name {
+    color: var(--white-font);
+}
+
+
+.bg-image {
+   width: 400px;
+   height: auto;
+}
+
+.logo-name {
+    font-family: "Pixelify Sans", Kanit, Martian Mono, Titillum Web, Arial, sans-serif;
+}
+
+.image-container {
+    width: min(100vw, 400px);
 }
 
