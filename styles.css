@@ -7,10 +7,11 @@
     --white-font: #ffffff;
 }
 
-
-body {
-    background-color: #f5f4f2;
-    flex-direction: column;
+/* Combined selectors */
+.photo-credit,
+.logo-name,
+a {
+    color: var(--white-font);
 }
 
 .intro-para,
@@ -19,44 +20,84 @@ body {
     font-weight: var(--bold-font);
 }
 
-
-.photo-credit,
-.logo-name {
-    color: var(--white-font);
+/* Body declarations */
+body {
+    background-color: #f5f4f2;
+    flex-direction: column;
 }
 
-
+/* Image section */
 .bg-image {
    background-size: cover;
    background-position: left;
-   width: 300px;
+   width: 500px;
    height: 100vh;
+   position: relative;
 }
+
 
 .logo-name {
     font-family: "Pixelify Sans", Kanit, Martian Mono, Titillum Web, Arial, sans-serif;
 }
 
-.image-container {
-    width: min(100vw, 400px);
+.logo-image {
+    width: 100px;
+    height: auto;
 }
 
-
-.text {
+/* Text section */
+.text-section {
     display: flex;
     justify-content: center;
 }
 
 .intro {
-    display: flex;
     width: 500px;
     margin-bottom: 50px;
 }
 
-.line {
-    display: flex;
-    text-align: right;
+.intro-para {
+    margin-bottom: 15px;
 }
 
-.intro-para {
+/* Form section */
+#form-section {
+    display: flex;
+    justify-content: center;
+    margin-left: 130px;
+    width: min();
+    background-color: #ffffff;
+    box-shadow: 0px 10px 15px  lightgray;
+}
+
+.name-section {
+    margin-bottom: 20px;
+}
+
+
+.contact-section {
+    margin-bottom: 20px;
+}
+
+.password-section {
+    margin-bottom: 20px;
+}
+
+/* Create account button */
+button {
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-color: #596d48;
+    color: white;
+}
+
+
+
+/* Login section */
+
+
+
+/* Footer section*/
+a {
+    text-decoration: none;
 }
